@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #CAD5E2;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    background: #D7D6CB;
+    text-align: center;
+    color:black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-family: "Jersey 10", sans-serif;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background: white;
+    padding:20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+.colorh3{
+    color:red;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    background-color: aliceblue;
+    padding: 8px;
+}
+
+ul {
+    margin-left:20px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+}   
+
+footer {
+    background-color:#45556C;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+}
+.imagen-container{
+    margin-bottom: 10px;
+}
+
+.titulo-imagen {
+    text-align: center;
+}
+
+.form1-container {
+    background: #CAD5E2;
+    padding: 15px;
+    border-left: 4px solid #45556C;
+    border-right: 4px solid #45556C;
+    border-radius: 4px;
+    margin-top: 20px;
+    
+
+}
+
+fieldset{
+    padding: 7px;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: flex-start;
+    background-color: #45556C;
+    border-radius: 8px;
+    color:white;
+    padding: 10px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212
+    
+}
+ol{
+    margin-left: 50px;
+    
+}
+
+label {
+    margin-bottom: 10px;
+    background: #D7D6CB;
+    border-radius: 4px;
+    padding: 5px;
+    border-left: 10px;
+    color: black;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    margin-left: 5px;
+}
+
+
+ input{
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+ }
+
+ legend {
+    background: #D7D6CB;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+ }
+
+ textarea {
+    margin-top: 10px;
+    border-radius: 6px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+ }
+
+ select {
+    padding: 3px;
+    border-radius: 6px;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+ }
+
+button.retro {
+    
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #D7D6CB;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  border: solid 0.125rem #121212;
+  box-shadow: 0.25rem 0.25rem #121212;
+  cursor: pointer;
+}
+
+fieldset {
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    background-color: #45556C;
+    border-radius: 8px;
+}
+.flex-redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #45556C;
+    padding: 10px;
+    color: white;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.item {
+    background-color: #D7D6CB;
+    padding: 20px;
+    color: black;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+}
