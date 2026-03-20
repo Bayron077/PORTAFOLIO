@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.main-navbar{
+    padding-top: 5px;
+    padding-bottom: 0px
+    
+}
+
 
 .mi-container {
     background: #D7D6CB;
@@ -21,18 +27,20 @@
 
 .navbar-nav{
     background: #D7D6CB;
-    text-align: center;
     color:black;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 10px;
     font-family: "Jersey 10", sans-serif;
-    padding: 10px;
     font-size: 30px;
 
-
-    
 }
+
+ .img-navbar{
+    width: 100px;
+    height: 100px;;
+ }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #CAD5E2;
