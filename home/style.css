@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-.main-navbar{
-    padding-top: 5px;
-    padding-bottom: 0px
-    
-}
+.navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent !important;
 
+}
 
 .mi-container {
     background: #D7D6CB;
@@ -25,21 +26,7 @@
     font-size: 30px;
 }
 
-.navbar-nav{
-    background: #D7D6CB;
-    color:black;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-family: "Jersey 10", sans-serif;
-    font-size: 30px;
 
-}
-
- .img-navbar{
-    width: 100px;
-    height: 100px;;
- }
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,6 +45,7 @@ main {
     background: white;
     padding:20px;
     border-radius: 8px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border: solid 0.125rem #121212;
     box-shadow: 0.25rem 0.25rem #121212;

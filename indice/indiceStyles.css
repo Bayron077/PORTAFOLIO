@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* zona-juego ocupa toda la pantalla y es el contexto de posicionamiento */
+#zona-juego {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #45556C;
+}
+
+/* los botones van posicionados DENTRO de zona-juego */
+.index-column {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 450px;
+    z-index: 10;
+}
+
+.p-2 {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+    background: #CAD5E2;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.p-2 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.opcion-activa {
+    animation: glow 0.8s infinite alternate;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 10px #00ffcc; }
+    to   { box-shadow: 0 0 30px #00ffcc; }
+}
+
+#player {
+    width: 128px;
+    height: 128px;
+    background-image: url("Run.png");
+    background-repeat: no-repeat;
+    background-size: 1280px 128px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    image-rendering: pixelated;
+    z-index: 20;
+}
