@@ -4,18 +4,26 @@
     box-sizing: border-box;
 }
 
-/* zona-juego ocupa toda la pantalla y es el contexto de posicionamiento */
+
 #zona-juego {
+    background-image: url(Sky.png);
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: #45556C;
+    /* background: #45556C; */
 }
 
-/* los botones van posicionados DENTRO de zona-juego */
+section{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+}
 .index-column {
     position: absolute;
     left: 50%;
@@ -58,7 +66,7 @@
 #player {
     width: 128px;
     height: 128px;
-    background-image: url("Run.png");
+    background-image: url("Walk.png");
     background-repeat: no-repeat;
     background-size: 1280px 128px;
     position: absolute;
@@ -66,4 +74,17 @@
     top: 0;
     image-rendering: pixelated;
     z-index: 20;
+}
+.texto-inicio{
+        font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+    background: #CAD5E2;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 30;
+
 }

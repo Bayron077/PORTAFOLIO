@@ -30,7 +30,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #CAD5E2;
+    background-image: url("/indice/Sky.png");
     color: black;
     line-height: 1.6;
     padding: 20px;

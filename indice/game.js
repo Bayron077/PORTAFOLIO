@@ -4,7 +4,7 @@ const zona = document.getElementById("zona-juego");
 const zonas = [
     document.getElementById("main-page"),
     document.getElementById("main-contact"),
-    document.getElementById("main-project"),
+    // document.getElementById("main-project"),
 ];
 
 let zonaActiva = null;
