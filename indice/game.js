@@ -11,7 +11,7 @@ let zonaActiva = null;
 
 let x = 0;
 let y = 0;
-let velocidad = 5;
+let velocidad = 3;
 
 let right = false;
 let left = false;
@@ -33,7 +33,7 @@ document.addEventListener("keydown", (e) => {
     if(e.key === "Enter" && zonaActiva){
         if(zonaActiva.id === "main-page")    window.location.href = "home.html";
         if(zonaActiva.id === "main-contact") window.location.href = "formulario.html";
-        if(zonaActiva.id === "main-project") window.location.href = "formularioo.html";
+
     }
 });
 

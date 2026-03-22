@@ -30,7 +30,8 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("/indice/Sky.png");
+    background-image: url("/assets/Sky.png");
+    background-size: cover;
     color: black;
     line-height: 1.6;
     padding: 20px;
@@ -58,6 +59,9 @@ section {
 h2 {
     color: black;
     margin-bottom: 10px;
+}
+h1{
+    
 }
 .colorh3{
     color:red;
@@ -215,7 +219,23 @@ fieldset {
     background-color: #D7D6CB;
     padding: 20px;
     color: black;
-    border: solid 0.125rem #121212;
-    box-shadow: 0.25rem 0.25rem #121212;
 
+
+}
+
+.card{
+    background-color: #D7D6CB;
+    border: solid black;
+
+} 
+ .list-group-item{
+    margin-right: 6px;
+    background-color:aliceblue;
+    text-decoration: white;
+    color: black;
+    padding: 10px;
+ }
+
+.main-portafolio{
+    background:#45556C;
 }
