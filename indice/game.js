@@ -18,7 +18,6 @@ let left = false;
 let up = false;
 let down = false;
 
-// 🎬 SPRITE
 let frame = 0;
 let frameWidth = 128;
 let totalFrames = 10;
@@ -46,13 +45,13 @@ document.addEventListener("keyup", (e) => {
 
 function gameLoop(){
 
-    // 🔹 1. MOVIMIENTO
+    //MOVIMIENTO
     if(right) x += velocidad;
     if(left) x -= velocidad;
     if(up) y -= velocidad;
     if(down) y += velocidad;
 
-    // 🔹 2. LÍMITES de la pantalla
+    // LiMITES de la pantalla
     const zonaWidth = zona.clientWidth;
     const zonaHeight = zona.clientHeight;
     const playerWidth = player.clientWidth;
@@ -63,7 +62,7 @@ function gameLoop(){
     if (y < 0) y = 0;
     if (y > zonaHeight - playerHeight) y = zonaHeight - playerHeight;
 
-    // 🔹 3. ANIMACIÓN
+    // ANIMACION
     if(right || left || up || down){
         contador++;
         if(contador % 5 === 0){
@@ -76,14 +75,14 @@ function gameLoop(){
 
     player.style.backgroundPosition = `-${frame * frameWidth}px 0px`;
 
-    // 🔹 4. FLIP IZQUIERDA
+    //FLIP IZQUIERDA
     if(left){
         player.style.transform = `translate(${x}px, ${y}px) scaleX(-1)`;
     } else {
         player.style.transform = `translate(${x}px, ${y}px) scaleX(1)`;
     }
 
-    // 🔹 5. COLISIONES — solo resalta, no bloquea movimiento
+    //COLISIONES — solo resalta, no bloquea movimiento
     const playerRect = player.getBoundingClientRect();
 
     zonaActiva = null;
