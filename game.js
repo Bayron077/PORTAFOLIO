@@ -11,7 +11,7 @@ let zonaActiva = null;
 
 let x = 0;
 let y = 0;
-let velocidad = 3;
+let velocidad = 5;
 
 let right = false;
 let left = false;
